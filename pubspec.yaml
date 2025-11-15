@@ -1,0 +1,15 @@
+name: strata_sqlite
+description: An SQLite adapter for strata.
+version: 0.1.0
+repository: https://github.com/tugorez/strata_sqlite
+
+environment:
+  sdk: ^3.9.2 # Match your strata package
+
+dependencies:
+  strata: ^0.1.0
+  sqlite3: ^2.9.4
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
